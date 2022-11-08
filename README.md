@@ -126,7 +126,7 @@ path = test_paths[i * self.batch_size + j]
 
 * fase_parsing을 수행하기 위해 CelebA Dataset보다 적합하고 많은 데이터셋 확보에 어려움이 있어서 pretrained_model을 수행해야 했다. 
 
-* 학습 환경의 제한과 데이터셋 확보의 어려움으로 pix2pixHD 코드를 통해 pretrained_model을 continue_train 해야하는 번거러움이 있었다.
+* 학습 환경의 제한과 데이터셋 확보의 어려움으로 pix2pixHD 코드를 통해 pretrained_model을 continue_train 해야하는 번거로움이 있었다.
 
 * 참고 논문과 깃허브에 train에 대한 코드가 제공되지 않아 pix2pixHD 코드를 참고하여 pretrained_model을 continue_train 수행했다.
 
