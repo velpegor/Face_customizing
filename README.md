@@ -66,7 +66,6 @@
     path = test_paths[i * self.batch_size + j]
     ```
 
-<br>
 
 ## 수정 사항
 
@@ -131,3 +130,7 @@ path = test_paths[i * self.batch_size + j]
 * 참고 논문과 깃허브에 train에 대한 코드가 제공되지 않아 pix2pixHD 코드를 참고하여 pretrained_model을 continue_train 수행했다.
 
 * 사전 학습 모델을 이용하여 image to image translation을 수행하기 때문에 학습되지 않은 데이터를 넣고 커스터마이징을 할 시 잘못 학습된 결과물이 나오는 경우가 종종 있음.
+
+## Reference
+* [MaskGAN : Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/abs/1907.11922)
+* [github](https://github.com/switchablenorms/CelebAMask-HQ)
