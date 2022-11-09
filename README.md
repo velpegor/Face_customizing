@@ -53,7 +53,7 @@
 !bash run_test.sh #gpu_num #face_parsing
 ```
 * fase_parsing 과정
-    * face_parsing/Data_preprocessing/g_partition.py 수행 -> train/test/val 폴더 생성
+    * face_parsing/Data_preprocessing/g_partition.py 실행 -> train/test/val 폴더 생성
 
     * test_img 폴더에 fase_parsing 수행할 데이터셋 첨부
 
