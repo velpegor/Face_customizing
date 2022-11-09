@@ -22,6 +22,8 @@
 
 ![실행](https://ifh.cc/g/7A4DZf.jpg)
 
+* CelebA 데이터로 사전 학습된 Pix2PixHD 모델에 각 팀원들 사진과 mask 이미지를 추가하여 continue_train을 수행하였다.
+
 * 기능은 총 18가지가 있다.
 *  각 기능에 맞춰 얼굴 커스터마이징이 가능하다.
     * Skin 
@@ -96,8 +98,6 @@ model = model.to(device)
 
 * 참고한 코드의 라이브러리 버전이 구 버전이여 현재 최신 버전의 라이브러리 버전에 맞게 코드를 수정하여 진행하였다. 
 
-* CelebA 데이터로 사전 학습된 Pix2PixHD 모델에 각 팀원들 사진과 mask 이미지를 추가하여 continue_train을 수행하였다.
-
 * 실행시키면서 발생한 문제점들과 구 버전 라이브러리들이나 코드 속 에러들을 수정한 사항들은 다음과 같다.
 ```python
 #이미지를 불러오는데 아래 코드에서 오류가 발생하는 경우가 있다.
@@ -156,7 +156,7 @@ path = test_paths[i * self.batch_size + j]
 
 * 참고 깃허브와 논문에서 train에 대한 코드를 제공하지 않을 뿐만 아니라 참고할 만한 코드가 한정적이라 많은 시간이 소요되었다.
 
-* 사전 학습 모델을 이용하여 image to image translation을 수행하기 때문에 학습되지 않은 데이터를 넣고 커스터마이징을 할 시 잘못 학습된 결과물이 나오는 경우가 종종 있음. 따라서 위 프로그램을 통해 올바른 아웃풋을 얻기 위해서는 모델 학습이 필수적이다.
+* 사전 학습 모델을 이용하여 image to image translation을 수행하기 때문에 학습되지 않은 데이터를 넣고 커스터마이징을 할 시 잘못 학습된 결과물이 나오는 경우가 종종 있다. 따라서 위 프로그램을 통해 올바른 아웃풋을 얻기 위해서는 모델 학습이 필수적이다.
 
 ## Reference
 * [MaskGAN : Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/abs/1907.11922)
