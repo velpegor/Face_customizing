@@ -64,7 +64,7 @@
 
 ## 수정 사항
 
-* 참고 깃허브에 train에 대한 코드 제공이 없어 ![Pix2PixHD 깃허브](https://github.com/NVIDIA/pix2pixHD) train 코드를 참고하여 MaskGAN에 적합하게 train 코드를  진행하였다. 
+* 참고 깃허브에 train에 대한 코드 제공이 없어 [Pix2PixHD](https://github.com/NVIDIA/pix2pixHD) train 코드를 참고하여 MaskGAN에 적합하게 train 코드를  진행하였다. 
 
 * Data Dictionary를 불러오는데 이미지 input값에 라벨 값들을 수정하여 추가해주었다.
 ```python
