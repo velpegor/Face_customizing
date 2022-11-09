@@ -80,8 +80,7 @@ image, image_ref, path, path_ref = data['image'], data['image_ref'], data['path'
 <br>
 
 * 이미지 visualizer에 대한 코드는 불필요하여 제거하였다.
-
-* model/network.py가 CPU연산으로 돌아가여 GPU로 돌아가게 수정하는 코드를 추가하였다.
+* model/network.py가 CPU연산으로 돌아가서 GPU로 돌아가게 수정하는 코드를 추가하였다.
 ```python
 #train.py 
 #line 52
@@ -90,10 +89,9 @@ device = 'cuda'
 model = model.to(device)
 ```
 
-<br>
-
 * 그 외 세부적인 수정사항들은 train.py를 참고
 
+- - - - -
 <br>
 
 * 참고한 코드의 라이브러리 버전이 구 버전이여 현재 최신 버전의 라이브러리 버전에 맞게 코드를 수정하여 진행하였다. 
