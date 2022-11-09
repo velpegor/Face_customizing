@@ -38,12 +38,6 @@
     * Neck
     * Cloth
 
-* 참고한 코드의 라이브러리 버전이 구 버전이여 현재 최신 버전의 라이브러리 버전에 맞게 코드를 수정하여 진행하였다. 
-
-* CelebA 데이터로 사전 학습된 Pix2PixHD 모델에 각 팀원들 사진과 mask 이미지를 추가하여 continue_train을 수행하였다.
-
-
-
 ## 실행 방법
 
 * Pytorch 1.13.0+cu116
@@ -69,6 +63,40 @@
 
 
 ## 수정 사항
+
+* 참고 깃허브에 train에 대한 코드 제공이 없어 ![Pix2PixHD 깃허브](https://github.com/NVIDIA/pix2pixHD) train 코드를 참고하여 MaskGAN에 적합하게 train 코드를  진행하였다. 
+
+* Data Dictionary를 불러오는데 이미지 input값에 라벨 값들을 수정하여 추가해주었다.
+```python
+#train.py
+#line 88
+inter_label_1, label = data['inter_label_1'], data['label']
+inter_label_2, label_ref = data['inter_label_2'], data['label_ref']
+image, image_ref, path, path_ref = data['image'], data['image_ref'], data['path'], data['path_ref'] 
+```
+
+<br>
+
+* 이미지 visualizer에 대한 코드는 불필요하여 제거하였다.
+
+* model/network.py가 CPU연산으로 돌아가여 GPU로 돌아가게 수정하는 코드를 추가하였다.
+```python
+#train.py 
+#line 52
+model = create_model(opt)
+device = 'cuda'
+model = model.to(device)
+```
+
+<br>
+
+* 그 외 세부적인 수정사항들은 train.py를 참고
+
+<br>
+
+* 참고한 코드의 라이브러리 버전이 구 버전이여 현재 최신 버전의 라이브러리 버전에 맞게 코드를 수정하여 진행하였다. 
+
+* CelebA 데이터로 사전 학습된 Pix2PixHD 모델에 각 팀원들 사진과 mask 이미지를 추가하여 continue_train을 수행하였다.
 
 * 실행시키면서 발생한 문제점들과 구 버전 라이브러리들이나 코드 속 에러들을 수정한 사항들은 다음과 같다.
 ```python
@@ -122,15 +150,13 @@ path = test_paths[i * self.batch_size + j]
 
 <br>
 
-## 한계점
+## 결론
 
-* fase_parsing을 수행하기 위해 CelebA Dataset보다 적합하고 많은 데이터셋 확보에 어려움이 있어서 pretrained_model을 수행해야 했다. 
+* fase_parsing을 수행하기 위해 CelebA Dataset보다 적합하고 많은 데이터셋 확보에 어려움과 학습 환경의 제한의 어려움 있어서 pretrained_model을 수행해야 했다. 
 
-* 학습 환경의 제한과 데이터셋 확보의 어려움으로 pix2pixHD 코드를 통해 pretrained_model을 continue_train 해야하는 번거로움이 있었다.
+* 참고 깃허브와 논문에서 train에 대한 코드를 제공하지 않을 뿐만 아니라 참고할 만한 코드가 한정적이라 많은 시간이 소요되었다.
 
-* 참고 논문과 깃허브에 train에 대한 코드가 제공되지 않아 pix2pixHD 코드를 참고하여 pretrained_model을 continue_train 수행했다.
-
-* 사전 학습 모델을 이용하여 image to image translation을 수행하기 때문에 학습되지 않은 데이터를 넣고 커스터마이징을 할 시 잘못 학습된 결과물이 나오는 경우가 종종 있음.
+* 사전 학습 모델을 이용하여 image to image translation을 수행하기 때문에 학습되지 않은 데이터를 넣고 커스터마이징을 할 시 잘못 학습된 결과물이 나오는 경우가 종종 있음. 따라서 위 프로그램을 통해 올바른 아웃풋을 얻기 위해서는 모델 학습이 필수적이다.
 
 ## Reference
 * [MaskGAN : Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/abs/1907.11922)
