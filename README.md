@@ -162,5 +162,5 @@ path = test_paths[i * self.batch_size + j]
 
 ## Reference
 * [MaskGAN : Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/abs/1907.11922)
+* [MaskGAN github](https://github.com/switchablenorms/CelebAMask-HQ)
 * [pix2pixHD](https://github.com/NVIDIA/pix2pixHD)
-* [github](https://github.com/switchablenorms/CelebAMask-HQ)
