@@ -157,7 +157,7 @@ path = test_paths[i * self.batch_size + j]
 
 * 사전 학습 모델을 이용하여 image to image translation을 수행하기 때문에 학습되지 않은 데이터를 넣고 커스터마이징을 할 시 잘못 학습된 결과물이 나오는 경우가 종종 있다. 따라서 위 프로그램을 통해 올바른 아웃풋을 얻기 위해서는 원하는 이미지의 모델 학습이 필수적이다.
 
-* 모델 학습을 진행하고 참고 깃허브와 논문에서 제공한 pretrained_model만 사용할 시 CelebA 데이터셋을 제외한 이미지에 대해서는 이상한 결과값이 출력된다. 따라서 train 코드를 추가하여 continue_train을 수행하여 참가 팀원의 사진과 mask를 학습하였다.
+* 모델 학습을 진행하고 참고 깃허브와 논문에서 제공한 pretrained_model만 사용할 시 CelebA 데이터셋을 제외한 이미지에 대해서는 정확도가 떨어지는 결과값이 출력된다. 따라서 train 코드를 추가하여 continue_train을 수행하여 참가 팀원의 사진과 mask를 학습하였다.
 
 ## Collaborator
 * [Seung Joon Myeong](http://github.com/MSJ99)
