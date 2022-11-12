@@ -21,7 +21,9 @@
 
 ## 실행 사진
 
-![실행](https://ifh.cc/g/7A4DZf.jpg)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/83739271/201489909-093c3c10-e70d-4970-9cd5-9b68ab466d3e.gif)
+
+* [Demo Video](https://youtu.be/W-l0jjOcYGE)
 
 * 기능은 총 18가지가 있다.
 *  각 기능에 맞춰 얼굴 커스터마이징이 가능하다.
