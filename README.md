@@ -169,3 +169,11 @@ path = test_paths[i * self.batch_size + j]
 * [MaskGAN : Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/abs/1907.11922)
 * [MaskGAN github](https://github.com/switchablenorms/CelebAMask-HQ)
 * [pix2pixHD](https://github.com/NVIDIA/pix2pixHD)
+```
+@inproceedings{CelebAMask-HQ,
+  title={MaskGAN: Towards Diverse and Interactive Facial Image Manipulation},
+  author={Lee, Cheng-Han and Liu, Ziwei and Wu, Lingyun and Luo, Ping},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
+}
+```
