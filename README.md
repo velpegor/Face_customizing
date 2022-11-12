@@ -21,7 +21,7 @@
 
 ## 실행 사진
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/83739271/201489909-093c3c10-e70d-4970-9cd5-9b68ab466d3e.gif)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/83739271/201490666-a7222c76-ea8a-4299-be37-3d9296765200.gif)
 
 * [Demo Video](https://youtu.be/W-l0jjOcYGE)
 
