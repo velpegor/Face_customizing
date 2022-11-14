@@ -3,7 +3,7 @@ import sys
 import cv2
 import time
 import numpy as np
-from PIL import Image
+from PIL import Image 
 
 import torch
 from torchvision.utils import save_image
