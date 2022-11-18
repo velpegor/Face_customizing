@@ -63,6 +63,7 @@
 ```python 
 !python demo.py #MaskGAN_demo
 ```
+* MaskGAN을 실행하기 위해서 face_mask 이미지와 원본 이미지를 필요로 한다.
 
 * fase_parsing을 통해 mask된 이미지 도출
 ```python
