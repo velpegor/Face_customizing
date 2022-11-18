@@ -37,8 +37,8 @@
 ![임달홍](https://ifh.cc/g/x8gv4w.jpg)
 * 헤어스타일 변경, 옷 생성, 귀걸이 생성
 
-
-* [Demo Video](https://youtu.be/W-l0jjOcYGE)
+* 상세한 실행 과정은 아래 영상을 참고
+   * [Demo Video](https://youtu.be/W-l0jjOcYGE)
 
 * 기능은 총 18가지가 있다.
 *  각 기능에 맞춰 얼굴 커스터마이징이 가능하다.
