@@ -22,6 +22,8 @@
 ## 실행 사진
 
 ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/83739271/201490887-96b5ca70-53be-40af-b803-2a7f4d157a46.gif)
+</br>
+
 ![이원준](https://ifh.cc/g/qXQFdz.jpg)
 * 귀 모양 변경, 귀걸이 생성 결과
 
