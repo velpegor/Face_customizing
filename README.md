@@ -22,6 +22,18 @@
 ## 실행 사진
 
 ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/83739271/201490887-96b5ca70-53be-40af-b803-2a7f4d157a46.gif)
+![이원준](https://ifh.cc/g/qXQFdz.jpg)
+* 귀 모양 변경, 귀걸이 생성 결과
+
+![이승현](https://ifh.cc/g/jj1PMM.jpg)
+* 헤어스타일 변경, 귀 모양 변경, 코 모양 변경, 입 모양 변경
+
+![명승준](https://ifh.cc/g/FbNsWs.jpg)
+* 목 모양 변경, 입술 모양 변경, 코 모양 변경 
+
+![임달홍](https://ifh.cc/g/x8gv4w.jpg)
+* 헤어스타일 변경, 옷 생성, 귀걸이 생성
+
 
 * [Demo Video](https://youtu.be/W-l0jjOcYGE)
 
