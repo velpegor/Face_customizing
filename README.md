@@ -49,7 +49,7 @@
 
 </br>
 
-![임달홍](https://ifh.cc/g/x8gv4w.jpg)
+![임달홍](https://ifh.cc/g/PybpPX.jpg)
 
 <div align="center">
 * 헤어스타일 변경, 옷 생성, 귀걸이 생성
