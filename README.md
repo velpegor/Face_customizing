@@ -69,7 +69,7 @@
 
 * CelebA 데이터로 사전 학습된 MaskGAN 모델에 각 팀원들 사진과 mask 이미지를 추가하여 continue_train을 수행하였다.
 
-* [Pix2PixHD](https://github.com/NVIDIA/pix2pixHD) train 코드를 참고하여 MaskGAN에 적합하게 train 코드를 짜서 진행하였다.
+* [Pix2PixHD](https://github.com/NVIDIA/pix2pixHD) train 코드를 참고하여 MaskGAN에 적합하게 train 코드를 구현하여 진행하였다.
 
 - - - - -
 
