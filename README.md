@@ -57,6 +57,12 @@
 
 </br>
 
+![사진](https://user-images.githubusercontent.com/83739271/203091573-26766f70-0135-4731-b4c1-204b5d362a87.png)
+
+<div align="center">
+* 실행 과정
+</div>
+
 * 상세한 실행 과정은 아래 영상을 참고
    * [Demo Video](https://youtu.be/W-l0jjOcYGE)
 
