@@ -204,6 +204,9 @@ path = test_paths[i * self.batch_size + j]
 
 * 모델 학습을 진행하고 참고 깃허브와 논문에서 제공한 pretrained_model만 사용할 시 CelebA 데이터셋을 제외한 이미지에 대해서는 정확도가 떨어지는 결과값이 출력된다. 따라서 train 코드를 추가하여 continue_train을 수행하여 참가 팀원의 사진과 mask를 학습하였다.
 
+## 소프트웨어 페스티벌 포스터
+![사진2](https://user-images.githubusercontent.com/83739271/203093920-25131b90-bc8a-4478-9298-3f91bcc1fccd.jpeg)
+
 ## Collaborator
 * [Seung Joon Myeong](http://github.com/MSJ99)
 * [Seung Hyun Lee](https://github.com/dltmdgus0220)
